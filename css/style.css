@@ -1,0 +1,60 @@
+@import url("./reset.css");
+
+body {
+    background-color: #c5c0b2;
+}
+h1 {
+    font-size: clamp(1.5rem, 2vw, 1.5rem);
+}
+
+h2 {
+    font-weight: normal;
+    font-size: clamp(1.25rem, 1.75vw, 1rem);
+}
+
+p{
+    font-size: clamp(1rem, 1.5vw, .75rem);
+}
+
+
+.contact-card {
+    margin: 3em auto;
+    border: 2px solid #505543;
+    background-color: #dbdfd8;
+    border-radius: 10px;
+    text-align: center; 
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.photo {
+    width: 50%;
+    height: auto;
+    max-width: 300px;
+    min-width: 150px;
+    border-radius: 10px;
+    margin: 2rem auto;    
+}
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.contact{
+    border-radius: 10px;
+    margin: .5rem;
+}
+
+.business{
+    border-radius: 10px;
+    margin: .5rem;
+}
+
+@media screen and (min-width: 992px){
+        .info{
+            flex-direction: column;        }
+}
