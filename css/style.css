@@ -16,7 +16,12 @@ p{
     font-size: clamp(1rem, 1.5vw, .75rem);
 }
 
-
+.main-content{
+    display: flex;
+    align-items: center;
+    height: 100dvh;
+    padding: 3rem;
+}
 .contact-card {
     margin: 3em auto;
     border: 2px solid #505543;
@@ -35,7 +40,7 @@ p{
     max-width: 300px;
     min-width: 150px;
     border-radius: 10px;
-    margin: 2rem auto;    
+    margin: 2rem;
 }
 
 .info{
@@ -56,5 +61,6 @@ p{
 
 @media screen and (min-width: 992px){
         .info{
-            flex-direction: column;        }
+            flex-direction: column;
+        }
 }
